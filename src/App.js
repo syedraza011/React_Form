@@ -1,8 +1,9 @@
-import Form from './components/Form'
+import Form from './components/Form' //rendering by importing
 import ManagedForm from './components/ManagedForm'
 import MultiInputForm from './components/MultiInputForm'
 import './App.css';
 
+//just redering form
 function App() {
   return (
     <div className="App">

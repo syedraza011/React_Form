@@ -4,8 +4,8 @@ import './Form.css'
 const Form = () => {
   const handleSubmit = (event) => {
     event.preventDefault()
-    const username = event.target.username.value
-    console.log('username: ', username)
+    const username = event.target.username.value;
+    console.log('username: ', username);
   }
 
   return (<>
